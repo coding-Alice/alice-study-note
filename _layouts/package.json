@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A foam template using gatsby-theme-kb for publishing you knowledge base",
   "engines": {
-    "node": ">=16.12.0 <16.18.0"
+    "node": "<=16.12.0"
   },
   "main": "index.js",
   "scripts": {
