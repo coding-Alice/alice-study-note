@@ -15,10 +15,10 @@
 
 ### **입출력 예**
 
-|num1|num2|result|
-|----|----|------|
-|2|3|-1|
-|100|2|98|
+| num1 | num2 | result |
+| ---- | ---- | ------ |
+| 2    | 3    | -1     |
+| 100  | 2    | 98     |
 
 ---
 
@@ -38,8 +38,15 @@
 
 ```javascript
 function solution(num1, num2) {
-    var answer = num1-num2;
-    return answer;
+  var answer = num1 - num2;
+  return answer;
 }
+```
 
+### **Solution.py**
+
+```python
+def solution(num1, num2):
+    answer = num1-num2
+    return answer
 ```

@@ -15,11 +15,11 @@
 
 ### **입출력 예**
 
-|num1|num2|result|
-|----|----|------|
-|2|3|-1|
-|11|11|1|
-|7|99|-1|
+| num1 | num2 | result |
+| ---- | ---- | ------ |
+| 2    | 3    | -1     |
+| 11   | 11   | 1      |
+| 7    | 99   | -1     |
 
 ---
 
@@ -43,8 +43,16 @@
 
 ```javascript
 function solution(num1, num2) {
-    var answer = Number(num1) === Number(num2)? 1: -1;
-    return answer;
+  var answer = Number(num1) === Number(num2) ? 1 : -1;
+  return answer;
 }
+```
+
+## **Solution.py**
+
+```python
+def solution(num1, num2):
+    answer = 1 if num1 == num2 else -1
+    return answer
 
 ```

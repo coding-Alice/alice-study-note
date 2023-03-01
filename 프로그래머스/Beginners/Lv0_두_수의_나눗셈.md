@@ -15,11 +15,11 @@
 
 ### **입출력 예**
 
-|num1|num2|result|
-|----|----|------|
-|3|2|1500|
-|7|3|2333|
-|1|16|62|
+| num1 | num2 | result |
+| ---- | ---- | ------ |
+| 3    | 2    | 1500   |
+| 7    | 3    | 2333   |
+| 1    | 16   | 62     |
 
 ---
 
@@ -43,7 +43,17 @@
 
 ```javascript
 function solution(num1, num2) {
-    var answer = parseInt((num1/num2)*1000);
-    return answer;
+  var answer = parseInt((num1 / num2) * 1000);
+  return answer;
 }
+```
+
+### **Solution.py**
+
+```python
+import numpy as np
+
+def solution(num1, num2):
+    answer = np.floor(num1/num2)
+    return answer
 ```

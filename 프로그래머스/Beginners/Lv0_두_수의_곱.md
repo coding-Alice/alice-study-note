@@ -15,10 +15,10 @@
 
 ### **입출력 예**
 
-|num1|num2|result|
-|----|----|------|
-|3|4|12|
-|27|19|513|
+| num1 | num2 | result |
+| ---- | ---- | ------ |
+| 3    | 4    | 12     |
+| 27   | 19   | 513    |
 
 ---
 
@@ -26,11 +26,11 @@
 
 입출력 예 #1
 
-- `num1`이 3, `num2`가 4이므로 3 * 4 = 12를 return 합니다.
+- `num1`이 3, `num2`가 4이므로 3 \* 4 = 12를 return 합니다.
 
 입출력 예 #2
 
-- `num1`이 27, `num2`가 19이므로 27 * 19 = 513을 return 합니다.
+- `num1`이 27, `num2`가 19이므로 27 \* 19 = 513을 return 합니다.
 
 ---
 
@@ -38,8 +38,15 @@
 
 ```javascript
 function solution(num1, num2) {
-    var answer = Number(num1) * Number(num2);
-    return answer;
+  var answer = Number(num1) * Number(num2);
+  return answer;
 }
+```
 
+## **Solution.py**
+
+```python
+def solution(num1, num2):
+    answer = num1 * num2;
+    return answer
 ```

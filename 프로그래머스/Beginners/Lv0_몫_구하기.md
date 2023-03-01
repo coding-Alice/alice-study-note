@@ -15,10 +15,10 @@
 
 ### **입출력 예**
 
-|num1|num2|result|
-|----|----|------|
-|10|5|2|
-|7|2|3|
+| num1 | num2 | result |
+| ---- | ---- | ------ |
+| 10   | 5    | 2      |
+| 7    | 2    | 3      |
 
 ---
 
@@ -38,7 +38,17 @@
 
 ```javascript
 function solution(num1, num2) {
-    var answer = Math.floor(Number(num1)/Number(num2));
-    return answer;
+  var answer = Math.floor(Number(num1) / Number(num2));
+  return answer;
 }
+```
+
+## **Solution.py**
+
+```python
+import numpy as np
+
+def solution(num1, num2):
+    answer = np.floor(num1/num2)
+    return answer
 ```
